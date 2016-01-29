@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>sev</Title>
+			<Shortcut>sev</Shortcut>
+			<Description>Code snippet for an static event</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>EventAccessModifier</ID>
+					<ToolTip>Replace with the access modifier of the event</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>EventType</ID>
+					<ToolTip>Replace with the type of the event</ToolTip>
+					<Default>EventHandler</Default>
+				</Literal>
+				<Literal>
+					<ID>EventName</ID>
+					<ToolTip>Replace with the name of the event</ToolTip>
+					<Default>EventName</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[$EventAccessModifier$ static event $EventType$ $EventName$;$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

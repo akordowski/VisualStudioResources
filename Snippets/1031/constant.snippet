@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>const</Title>
+			<Shortcut>const</Shortcut>
+			<Description>Codeausschnitt für eine Konstante</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>ConstantAccessModifier</ID>
+					<ToolTip>Durch den Zugriffsmodifizierer der Konstante ersetzen</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>ConstantType</ID>
+					<ToolTip>Durch den Typ der Konstante ersetzen</ToolTip>
+					<Default>string</Default>
+				</Literal>
+				<Literal>
+					<ID>ConstantName</ID>
+					<ToolTip>Durch den Namen der Konstante ersetzen</ToolTip>
+					<Default>Constant</Default>
+				</Literal>
+				<Literal>
+					<ID>ConstantValue</ID>
+					<ToolTip>Durch den Wert der Konstante ersetzen</ToolTip>
+					<Default>"Value"</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[$ConstantAccessModifier$ const $ConstantType$ $ConstantName$ = $ConstantValue$;$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

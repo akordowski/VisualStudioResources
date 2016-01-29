@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>#region_static_fields</Title>
+			<Shortcut>#region_static_fields</Shortcut>
+			<Description>Code snippet for #region Static Fields</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>AccessModifier</ID>
+					<ToolTip>Replace with the access modifier</ToolTip>
+					<Default>Private</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[#region $AccessModifier$ Static Fields
+			$selected$$end$
+			#endregion]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

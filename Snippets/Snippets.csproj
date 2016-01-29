@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC2D5853-C7A5-43B1-99A6-CD82BFF971BD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Snippets</RootNamespace>
+    <AssemblyName>Snippets</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="1031\array.snippet" />
+    <None Include="1031\constant.snippet" />
+    <None Include="1031\constructor.snippet" />
+    <None Include="1031\debug_writeline.snippet" />
+    <None Include="1031\static_event.snippet" />
+    <None Include="1031\exception_argument.snippet" />
+    <None Include="1031\exception_argumentnull.snippet" />
+    <None Include="1031\exception_notimplemented.snippet" />
+    <None Include="1031\method.snippet" />
+    <None Include="1031\method_void.snippet" />
+    <None Include="1031\region_constructor.snippet" />
+    <None Include="1031\region_events.snippet" />
+    <None Include="1031\region_event_handler.snippet" />
+    <None Include="1031\region_fields.snippet" />
+    <None Include="1031\region_methods.snippet" />
+    <None Include="1031\region_properties.snippet" />
+    <None Include="1031\region_static_constructor.snippet" />
+    <None Include="1031\region_static_events.snippet" />
+    <None Include="1031\region_static_event_handler.snippet" />
+    <None Include="1031\region_static_fields.snippet" />
+    <None Include="1031\region_static_methods.snippet" />
+    <None Include="1031\region_static_properties.snippet" />
+    <None Include="1031\static_constructor.snippet" />
+    <None Include="1031\static_field.snippet" />
+    <None Include="1031\static_method.snippet" />
+    <None Include="1031\static_method_void.snippet" />
+    <None Include="1031\string_format.snippet" />
+    <None Include="1033\array.snippet" />
+    <None Include="1033\constant.snippet" />
+    <None Include="1033\constructor.snippet" />
+    <None Include="1033\debug_writeline.snippet" />
+    <None Include="1033\static_event.snippet" />
+    <None Include="1033\event.snippet" />
+    <None Include="1033\exception_argument.snippet" />
+    <None Include="1033\exception_argumentnull.snippet" />
+    <None Include="1033\exception_notimplemented.snippet" />
+    <None Include="1033\field.snippet" />
+    <None Include="1033\ifelse.snippet" />
+    <None Include="1033\method.snippet" />
+    <None Include="1033\method_void.snippet" />
+    <None Include="1033\region_constructor.snippet" />
+    <None Include="1033\region_events.snippet" />
+    <None Include="1033\region_event_handler.snippet" />
+    <None Include="1033\region_fields.snippet" />
+    <None Include="1033\region_methods.snippet" />
+    <None Include="1033\region_properties.snippet" />
+    <None Include="1033\region_static_constructor.snippet" />
+    <None Include="1033\region_static_events.snippet" />
+    <None Include="1033\region_static_event_handler.snippet" />
+    <None Include="1033\region_static_fields.snippet" />
+    <None Include="1033\region_static_methods.snippet" />
+    <None Include="1033\region_static_properties.snippet" />
+    <None Include="1033\static_constructor.snippet" />
+    <None Include="1033\static_field.snippet" />
+    <None Include="1033\static_method.snippet" />
+    <None Include="1033\static_method_void.snippet" />
+    <None Include="1033\string_format.snippet" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="1031\event.snippet" />
+    <None Include="1031\field.snippet" />
+    <None Include="1031\ifelse.snippet" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
