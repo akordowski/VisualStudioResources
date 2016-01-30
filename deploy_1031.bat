@@ -1,0 +1,5 @@
+@echo off
+SETLOCAL ENABLEEXTENSIONS
+SET LCID=1031
+
+deploy.bat

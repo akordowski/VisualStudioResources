@@ -9,14 +9,14 @@ By default, snippets installed together with the product are located in:
 `\VisualStudioInstallationDirectory\Language\Snippets\Locale\`
 
 For example, the following directory contains the Visual Studio *Visual C#* snippets for English:  
-`C:\Program Files\Microsoft Visual Studio 12.0\VC#\Snippets\1033\`
+`C:\Program Files\Microsoft Visual Studio 14.0\VC#\Snippets\1033\`
 
 ####Custom Snippets
 By default, custom snippets are located in:  
-`\My Documents\Visual Studio 2013\Code Snippets\Language\My Code Snippets\`
+`\My Documents\Visual Studio 2015\Code Snippets\Language\My Code Snippets\`
 
 For example, the following directory contains custom *Visual C#* snippets:  
-`C:\Documents and Settings\UserName\My Documents\Visual Studio 2013\Code Snippets\Visual C#\My Code Snippets\`
+`C:\Documents and Settings\UserName\My Documents\Visual Studio 2015\Code Snippets\Visual C#\My Code Snippets\`
 
 Custom snippets do not support a subdirectory for localized snippets.
 
@@ -25,18 +25,18 @@ By default, Visual Studio searches two locations for project and item templates.
 
 ####Installed Templates
 By default, templates installed together with the product are located in:  
-`\VisualStudioInstallationDirectory\Common7\IDE\ItemTemplates\Language\Locale\`  
-`\VisualStudioInstallationDirectory\Common7\IDE\ProjectTemplates\Language\Locale\`
+`\VisualStudioInstallationDirectory\Common7\IDE\ItemTemplates\`  
+`\VisualStudioInstallationDirectory\Common7\IDE\ProjectTemplates\`
 
 For example, the following directory contains the Visual Studio project templates for English:  
-`C:\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\ProjectTemplates\VisualBasic\1033\`
+`C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates\CSharp\Web\1033\`
 
 ####Custom Templates
 By default, custom templates are located in:  
-`\My Documents\Visual Studio 2013\Templates\ItemTemplates\Language\`  
-`\My Documents\Visual Studio 2013\Templates\ProjectTemplates\Language\`
+`\My Documents\Visual Studio 2015\Templates\ItemTemplates\`  
+`\My Documents\Visual Studio 2015\Templates\ProjectTemplates\`
 
 For example, the following directory contains custom *Visual C#* project templates:  
-`C:\Documents and Settings\UserName\My Documents\Visual Studio 2013\Templates\ProjectTemplates\Visual C#\`
+`C:\Documents and Settings\UserName\My Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\`
 
 Custom templates do not support a subdirectory for localized templates.
