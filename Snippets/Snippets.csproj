@@ -36,6 +36,14 @@
     <None Include="1031\constant.snippet" />
     <None Include="1031\constructor.snippet" />
     <None Include="1031\debug_writeline.snippet" />
+    <None Include="1031\nunit_attribute_ignore.snippet" />
+    <None Include="1031\nunit_attribute_test.snippet" />
+    <None Include="1031\nunit_attribute_testcasesource.snippet" />
+    <None Include="1031\nunit_testcasesource.snippet" />
+    <None Include="1031\nunit_method_testcasesource.snippet" />
+    <None Include="1031\nunit_method_test.snippet" />
+    <None Include="1031\region_testcasesources.snippet" />
+    <None Include="1031\region_tests.snippet" />
     <None Include="1031\static_event.snippet" />
     <None Include="1031\exception_argument.snippet" />
     <None Include="1031\exception_argumentnull.snippet" />
@@ -63,6 +71,14 @@
     <None Include="1033\constant.snippet" />
     <None Include="1033\constructor.snippet" />
     <None Include="1033\debug_writeline.snippet" />
+    <None Include="1033\nunit_attribute_ignore.snippet" />
+    <None Include="1033\nunit_attribute_test.snippet" />
+    <None Include="1033\nunit_attribute_testcasesource.snippet" />
+    <None Include="1033\nunit_method_test.snippet" />
+    <None Include="1033\nunit_method_testcasesource.snippet" />
+    <None Include="1033\nunit_testcasesource.snippet" />
+    <None Include="1033\region_testcasesources.snippet" />
+    <None Include="1033\region_tests.snippet" />
     <None Include="1033\static_event.snippet" />
     <None Include="1033\event.snippet" />
     <None Include="1033\exception_argument.snippet" />
@@ -91,11 +107,13 @@
     <None Include="1033\string_format.snippet" />
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="1031\event.snippet" />
     <None Include="1031\field.snippet" />
     <None Include="1031\ifelse.snippet" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

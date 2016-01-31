@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nutcs</Title>
+			<Shortcut>nutcs</Shortcut>
+			<Description>Code snippet for an empty NUnit TestCaseSource</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>TestCaseSource</ID>
+					<ToolTip>Replace with the name of the NUnit TestCaseSource</ToolTip>
+					<Default>TestCaseSource</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[public static IEnumerable $TestCaseSource$()
+			{
+				yield return new TestCaseData();$end$
+			}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
