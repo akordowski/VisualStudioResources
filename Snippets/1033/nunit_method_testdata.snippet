@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>numt</Title>
-			<Shortcut>numt</Shortcut>
-			<Description>Codeausschnitt für eine leere NUnit Test Methode mit dem Test Attribut</Description>
+			<Title>numtd</Title>
+			<Shortcut>numtd</Shortcut>
+			<Description>Code snippet for an empty NUnit Test Method with a TestData Attribute</Description>
 			<Author>Artur Kordowski</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -14,11 +14,11 @@
 			<Declarations>
 				<Literal>
 					<ID>MethodName</ID>
-					<ToolTip>Durch den Namen der NUnit Test Methode ersetzen</ToolTip>
+					<ToolTip>Replace with the name of the NUnit Test Method</ToolTip>
 					<Default>Method</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[[Test]
+			<Code Language="csharp"><![CDATA[[TestData()]
 			public void $MethodName$()
 			{
 				$end$

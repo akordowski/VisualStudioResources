@@ -38,7 +38,9 @@
     <None Include="1031\debug_writeline.snippet" />
     <None Include="1031\nunit_attribute_ignore.snippet" />
     <None Include="1031\nunit_attribute_test.snippet" />
+    <None Include="1031\nunit_attribute_testdata.snippet" />
     <None Include="1031\nunit_attribute_testcasesource.snippet" />
+    <None Include="1031\nunit_method_testdata.snippet" />
     <None Include="1031\nunit_testcasesource.snippet" />
     <None Include="1031\nunit_method_testcasesource.snippet" />
     <None Include="1031\nunit_method_test.snippet" />
@@ -73,8 +75,10 @@
     <None Include="1033\debug_writeline.snippet" />
     <None Include="1033\nunit_attribute_ignore.snippet" />
     <None Include="1033\nunit_attribute_test.snippet" />
+    <None Include="1033\nunit_attribute_testdata.snippet" />
     <None Include="1033\nunit_attribute_testcasesource.snippet" />
     <None Include="1033\nunit_method_test.snippet" />
+    <None Include="1033\nunit_method_testdata.snippet" />
     <None Include="1033\nunit_method_testcasesource.snippet" />
     <None Include="1033\nunit_testcasesource.snippet" />
     <None Include="1033\region_testcasesources.snippet" />
