@@ -13,8 +13,8 @@
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>TestCaseSource</ID>
-					<ToolTip>Durch den Namen des NUnit TestCaseSource ersetzen</ToolTip>
+					<ID>TestCaseSourceMethod</ID>
+					<ToolTip>Durch den Namen der NUnit TestCaseSource Methode ersetzen</ToolTip>
 					<Default>TestCaseSource</Default>
 				</Literal>
 				<Literal>
@@ -23,7 +23,7 @@
 					<Default>Method</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[[TestCaseSource("$TestCaseSource$")]
+			<Code Language="csharp"><![CDATA[[TestCaseSource("$TestCaseSourceMethod$_TestCases")]
 			public void $MethodName$()
 			{
 				$end$

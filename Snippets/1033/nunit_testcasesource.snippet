@@ -14,11 +14,11 @@
 			<Declarations>
 				<Literal>
 					<ID>TestCaseSource</ID>
-					<ToolTip>Replace with the name of the NUnit TestCaseSource</ToolTip>
+					<ToolTip>Replace with the name of the NUnit TestCaseSource Method</ToolTip>
 					<Default>TestCaseSource</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[public static IEnumerable $TestCaseSource$()
+			<Code Language="csharp"><![CDATA[public static IEnumerable $TestCaseSource$_TestCases()
 			{
 				yield return new TestCaseData();$end$
 			}]]>
