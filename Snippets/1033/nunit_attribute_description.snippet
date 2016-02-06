@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nua_Description</Title>
+			<Shortcut>nua_Description</Shortcut>
+			<Description>Code snippet for an NUnit Description Attribute</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>Description</ID>
+					<ToolTip>Replace with the description</ToolTip>
+					<Default>Beschreibung</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[Description("$Description$")]$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

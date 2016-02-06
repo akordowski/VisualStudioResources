@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nua_Range</Title>
+			<Shortcut>nua_Range</Shortcut>
+			<Description>Codeausschnitt für ein NUnit Range Attribut</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>RangeFrom</ID>
+					<ToolTip>Durch den Startwert des Bereichs ersetzen</ToolTip>
+					<Default>1</Default>
+				</Literal>
+			</Declarations>
+			<Declarations>
+				<Literal>
+					<ID>RangeTo</ID>
+					<ToolTip>Durch den Endwert des Bereichs ersetzen</ToolTip>
+					<Default>10</Default>
+				</Literal>
+			</Declarations>
+			<Declarations>
+				<Literal>
+					<ID>RangeStep</ID>
+					<ToolTip>Durch den Schrittwert ersetzen</ToolTip>
+					<Default>1</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[Range($RangeFrom$, $RangeTo$, $RangeStep$)]$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

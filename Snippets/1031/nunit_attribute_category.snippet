@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nua_Category</Title>
+			<Shortcut>nua_Category</Shortcut>
+			<Description>Codeausschnitt für ein NUnit Category Attribut</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>CategoryName</ID>
+					<ToolTip>Durch den Namen der Kategorie ersetzen</ToolTip>
+					<Default>Category</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[Category("$CategoryName$")]$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

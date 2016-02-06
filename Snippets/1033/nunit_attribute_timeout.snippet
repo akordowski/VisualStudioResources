@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>numtd</Title>
-			<Shortcut>numtd</Shortcut>
-			<Description>Codeausschnitt für eine leere NUnit Test Methode mit dem TestData Attribut</Description>
+			<Title>nua_Timeout</Title>
+			<Shortcut>nua_Timeout</Shortcut>
+			<Description>Code snippet for an NUnit Timeout Attribute</Description>
 			<Author>Artur Kordowski</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -13,18 +13,12 @@
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>MethodName</ID>
-					<ToolTip>Durch den Namen der NUnit Test Methode ersetzen</ToolTip>
-					<Default>Method</Default>
+					<ID>Timeout</ID>
+					<ToolTip>Replace with the timeout</ToolTip>
+					<Default>2000</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp">
-				<![CDATA[[TestData()]
-			public void $MethodName$()
-			{
-				$end$
-			}]]>
-			</Code>
+			<Code Language="csharp"><![CDATA[[Timeout($Timeout$)]$end$]]></Code>
 		</Snippet>
 	</CodeSnippet>
 </CodeSnippets>

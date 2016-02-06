@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nua_Property</Title>
+			<Shortcut>nua_Property</Shortcut>
+			<Description>Codeausschnitt für ein NUnit Property Attribut</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>PropertyName</ID>
+					<ToolTip>Durch den Namen der Property ersetzen</ToolTip>
+					<Default>PropertyName</Default>
+				</Literal>
+				<Literal>
+					<ID>PropertyValue</ID>
+					<ToolTip>Durch den Wert der Property ersetzen</ToolTip>
+					<Default>PropertyValue</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[Property("$PropertyName$", "$PropertyValue$")]$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

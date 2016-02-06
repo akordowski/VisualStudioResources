@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nua_Author</Title>
+			<Shortcut>nua_Author</Shortcut>
+			<Description>Codeausschnitt für ein NUnit Author Attribut</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>AuthorName</ID>
+					<ToolTip>Durch den Namen des Autors ersetzen</ToolTip>
+					<Default>Author</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[Author("$AuthorName$")]$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

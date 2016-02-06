@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>nua_TestOf</Title>
+			<Shortcut>nua_TestOf</Shortcut>
+			<Description>Code snippet for an NUnit TestOf Attribute</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>TestOfType</ID>
+					<ToolTip>Replace with the type</ToolTip>
+					<Default>Type</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[TestOf(typeof($TestOfType$)]$end$]]></Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
