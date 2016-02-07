@@ -36,6 +36,7 @@
     <None Include="1031\constant.snippet" />
     <None Include="1031\constructor.snippet" />
     <None Include="1031\debug_writeline.snippet" />
+    <None Include="1031\event_on.snippet" />
     <None Include="1031\getset_private.snippet" />
     <None Include="1031\getset.snippet" />
     <None Include="1031\nunit_attribute_apartment.snippet" />
@@ -113,6 +114,7 @@
     <None Include="1033\constant.snippet" />
     <None Include="1033\constructor.snippet" />
     <None Include="1033\debug_writeline.snippet" />
+    <None Include="1033\event_on.snippet" />
     <None Include="1033\getset.snippet">
       <SubType>Designer</SubType>
     </None>
