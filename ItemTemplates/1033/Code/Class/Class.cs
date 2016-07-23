@@ -6,7 +6,7 @@ $endif$using System.Text;
 namespace $rootnamespace$
 {
 	/// <summary>
-	/// Provides a <see cref="$safeitemname$"/> class. 
+	/// Provides a <see cref="$safeitemname$"/> class.
 	/// </summary>
 	public class $safeitemrootname$
 	{
