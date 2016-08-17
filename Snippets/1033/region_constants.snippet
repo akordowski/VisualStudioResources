@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>#region_constants</Title>
+			<Shortcut>#region_constants</Shortcut>
+			<Description>Code snippet for #region Constants</Description>
+			<Author>Artur Kordowski</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>AccessModifier</ID>
+					<ToolTip>Replace with the access modifier</ToolTip>
+					<Default>Public</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[#region $AccessModifier$ Constants
+			$selected$$end$
+			#endregion]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

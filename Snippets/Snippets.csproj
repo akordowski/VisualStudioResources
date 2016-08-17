@@ -85,8 +85,6 @@
     <None Include="1031\nunit_testcasesource.snippet" />
     <None Include="1031\nunit_method_testcasesource.snippet" />
     <None Include="1031\nunit_method_test.snippet" />
-    <None Include="1031\region_testcasesources.snippet" />
-    <None Include="1031\region_tests.snippet" />
     <None Include="1031\static_event.snippet" />
     <None Include="1031\exception_argument.snippet" />
     <None Include="1031\exception_argumentnull.snippet" />
@@ -131,8 +129,6 @@
     <None Include="1033\nunit_method_testcase.snippet" />
     <None Include="1033\nunit_method_testcasesource.snippet" />
     <None Include="1033\nunit_testcasesource.snippet" />
-    <None Include="1033\region_testcasesources.snippet" />
-    <None Include="1033\region_tests.snippet" />
     <None Include="1033\static_event.snippet" />
     <None Include="1033\event.snippet" />
     <None Include="1033\exception_argument.snippet" />
@@ -196,6 +192,20 @@
     <None Include="1033\nunit_attribute_category.snippet" />
     <None Include="1033\nunit_attribute_author.snippet" />
     <None Include="1033\nunit_attribute_apartment.snippet" />
+    <None Include="1031\region_delegates.snippet" />
+    <None Include="1031\region_constants.snippet" />
+    <None Include="1031\nunit_region_setup_teardown.snippet" />
+    <None Include="1031\nunit_region_testcasesources.snippet" />
+    <None Include="1031\nunit_region_setup.snippet" />
+    <None Include="1031\nunit_region_tests.snippet" />
+    <None Include="Template 1031\template_region.snippet" />
+    <None Include="1033\region_delegates.snippet" />
+    <None Include="1033\region_constants.snippet" />
+    <None Include="1033\nunit_region_setup_teardown.snippet" />
+    <None Include="1033\nunit_region_testcasesources.snippet" />
+    <None Include="1033\nunit_region_setup.snippet" />
+    <None Include="1033\nunit_region_tests.snippet" />
+    <None Include="Template 1033\template_region.snippet" />
   </ItemGroup>
   <ItemGroup>
     <None Include="1031\event.snippet" />
@@ -205,6 +215,7 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

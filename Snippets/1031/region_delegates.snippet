@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>#region_testcasesources</Title>
-			<Shortcut>#region_testcasesources</Shortcut>
-			<Description>Code snippet for #region Test Case Sources</Description>
+			<Title>#region_delegates</Title>
+			<Shortcut>#region_delegates</Shortcut>
+			<Description>Codeausschnitt für #region Delegates</Description>
 			<Author>Artur Kordowski</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -12,7 +12,14 @@
 			</SnippetTypes>
 		</Header>
 		<Snippet>
-			<Code Language="csharp"><![CDATA[#region Test Case Sources
+			<Declarations>
+				<Literal>
+					<ID>AccessModifier</ID>
+					<ToolTip>Durch den Zugriffsmodifizierer ersetzen</ToolTip>
+					<Default>Public</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[#region $AccessModifier$ Delegates
 			$selected$$end$
 			#endregion]]>
 			</Code>
