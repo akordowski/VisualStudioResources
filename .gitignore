@@ -235,3 +235,15 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# SandCastle Docs
+**/[Dd]ocs/[Hh]elp
+
+# Cake
+**/tools/nuget.exe
+**/tools/Addins/
+**/tools/Cake/
+
+# Build
+**/image/
+**/package/
