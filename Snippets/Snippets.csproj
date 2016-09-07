@@ -198,6 +198,23 @@
     <None Include="1031\nunit_region_testcasesources.snippet" />
     <None Include="1031\nunit_region_setup.snippet" />
     <None Include="1031\nunit_region_tests.snippet" />
+    <None Include="Template 1031\ex_ApplicationException.snippet" />
+    <None Include="Template 1031\ex_ArgumentException.snippet" />
+    <None Include="Template 1031\ex_ArgumentNullException.snippet" />
+    <None Include="Template 1031\ex_ArgumentOutOfRangeException.snippet" />
+    <None Include="Template 1031\ex_DirectoryNotFoundException.snippet" />
+    <None Include="Template 1031\ex_Exception.snippet" />
+    <None Include="Template 1031\ex_FileNotFoundException.snippet" />
+    <None Include="Template 1031\ex_FormatException.snippet" />
+    <None Include="Template 1031\ex_IndexOutOfRangeException.snippet" />
+    <None Include="Template 1031\ex_InvalidEnumArgumentException.snippet" />
+    <None Include="Template 1031\ex_InvalidOperationException.snippet" />
+    <None Include="Template 1031\ex_InvalidProgramException.snippet" />
+    <None Include="Template 1031\ex_MethodAccessException.snippet" />
+    <None Include="Template 1031\ex_MissingMemberException.snippet" />
+    <None Include="Template 1031\ex_MissingMethodException.snippet" />
+    <None Include="Template 1031\ex_NotImplementedException.snippet" />
+    <None Include="Template 1031\ex_NotSupportedException.snippet" />
     <None Include="Template 1031\template_region.snippet" />
     <None Include="1033\region_delegates.snippet" />
     <None Include="1033\region_constants.snippet" />
@@ -205,6 +222,23 @@
     <None Include="1033\nunit_region_testcasesources.snippet" />
     <None Include="1033\nunit_region_setup.snippet" />
     <None Include="1033\nunit_region_tests.snippet" />
+    <None Include="Template 1033\ex_DirectoryNotFoundException.snippet" />
+    <None Include="Template 1033\ex_InvalidEnumArgumentException.snippet" />
+    <None Include="Template 1033\ex_FileNotFoundException.snippet" />
+    <None Include="Template 1033\ex_MissingMethodException.snippet" />
+    <None Include="Template 1033\ex_MissingMemberException.snippet" />
+    <None Include="Template 1033\ex_MethodAccessException.snippet" />
+    <None Include="Template 1033\ex_InvalidProgramException.snippet" />
+    <None Include="Template 1033\ex_InvalidOperationException.snippet" />
+    <None Include="Template 1033\ex_FormatException.snippet" />
+    <None Include="Template 1033\ex_Exception.snippet" />
+    <None Include="Template 1033\ex_IndexOutOfRangeException.snippet" />
+    <None Include="Template 1033\ex_ApplicationException.snippet" />
+    <None Include="Template 1033\ex_NotSupportedException.snippet" />
+    <None Include="Template 1033\ex_NotImplementedException.snippet" />
+    <None Include="Template 1033\ex_ArgumentOutOfRangeException.snippet" />
+    <None Include="Template 1033\ex_ArgumentNullException.snippet" />
+    <None Include="Template 1033\ex_ArgumentException.snippet" />
     <None Include="Template 1033\template_region.snippet" />
   </ItemGroup>
   <ItemGroup>
