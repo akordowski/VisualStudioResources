@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>meth</Title>
-			<Shortcut>meth</Shortcut>
-			<Description>Code snippet for an empty method</Description>
+			<Title>meth_protected</Title>
+			<Shortcut>meth_protected</Shortcut>
+			<Description>Codeausschnitt für eine leere protected Methode</Description>
 			<Author>Artur Kordowski</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -13,22 +13,17 @@
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>MethodAccessModifier</ID>
-					<ToolTip>Replace with the access modifier of the method</ToolTip>
-					<Default>public</Default>
-				</Literal>
-				<Literal>
 					<ID>MethodReturnType</ID>
-					<ToolTip>Replace with the return type of the method</ToolTip>
+					<ToolTip>Durch den Rückgabetyp der Methode ersetzen</ToolTip>
 					<Default>object</Default>
 				</Literal>
 				<Literal>
 					<ID>MethodName</ID>
-					<ToolTip>Replace with the name of the method</ToolTip>
+					<ToolTip>Durch den Namen der Methode ersetzen</ToolTip>
 					<Default>Method</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[$MethodAccessModifier$ $MethodReturnType$ $MethodName$()
+			<Code Language="csharp"><![CDATA[protected $MethodReturnType$ $MethodName$()
 			{
 				return null;$end$
 			}]]>

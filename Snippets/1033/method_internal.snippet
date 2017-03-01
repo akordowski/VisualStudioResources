@@ -4,7 +4,7 @@
 		<Header>
 			<Title>meth</Title>
 			<Shortcut>meth</Shortcut>
-			<Description>Code snippet for an empty method</Description>
+			<Description>Code snippet for an empty internal method</Description>
 			<Author>Artur Kordowski</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -12,11 +12,6 @@
 		</Header>
 		<Snippet>
 			<Declarations>
-				<Literal>
-					<ID>MethodAccessModifier</ID>
-					<ToolTip>Replace with the access modifier of the method</ToolTip>
-					<Default>public</Default>
-				</Literal>
 				<Literal>
 					<ID>MethodReturnType</ID>
 					<ToolTip>Replace with the return type of the method</ToolTip>
@@ -28,7 +23,7 @@
 					<Default>Method</Default>
 				</Literal>
 			</Declarations>
-			<Code Language="csharp"><![CDATA[$MethodAccessModifier$ $MethodReturnType$ $MethodName$()
+			<Code Language="csharp"><![CDATA[internal $MethodReturnType$ $MethodName$()
 			{
 				return null;$end$
 			}]]>
