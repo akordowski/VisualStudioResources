@@ -4,10 +4,10 @@ using System.Collections;
 
 namespace $rootnamespace$
 {
-	public static class $safeitemrootname$
-	{
-		#region Test Case Sources
-		
-		#endregion
-	}
+    public static class $safeitemrootname$
+    {
+        #region Test Case Sources
+        
+        #endregion
+    }
 }

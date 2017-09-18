@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>nu_TestCaseSource</Title>
-			<Shortcut>nu_TestCaseSource</Shortcut>
-			<Description>Codeausschnitt für eine leere NUnit TestCaseSource Methode</Description>
-			<Author>Artur Kordowski</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>TestCaseSourceMethod</ID>
-					<ToolTip>Durch den Namen der NUnit TestCaseSource Methode ersetzen</ToolTip>
-					<Default>TestCaseSource</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp"><![CDATA[public static IEnumerable $TestCaseSourceMethod$_TestCases()
-			{
-				yield return new TestCaseData();$end$
-			}]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>nu_TestCaseSource</Title>
+      <Shortcut>nu_TestCaseSource</Shortcut>
+      <Description>Codeausschnitt für eine leere NUnit TestCaseSource Methode</Description>
+      <Author>Artur Kordowski</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TestCaseSourceMethod</ID>
+          <ToolTip>Durch den Namen der NUnit TestCaseSource Methode ersetzen</ToolTip>
+          <Default>TestCaseSource</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[public static IEnumerable $TestCaseSourceMethod$_TestCases()
+      {
+        yield return new TestCaseData();$end$
+      }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

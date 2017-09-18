@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>nua_ValueSource</Title>
-			<Shortcut>nua_ValueSource</Shortcut>
-			<Description>Code snippet for an NUnit ValueSource Attribute</Description>
-			<Author>Artur Kordowski</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>ValueSourceType</ID>
-					<ToolTip>Replace with the type of the source</ToolTip>
-					<Default>Type</Default>
-				</Literal>
-				<Literal>
-					<ID>ValueSourceName</ID>
-					<ToolTip>Replace with the name of the source</ToolTip>
-					<Default>Name</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp"><![CDATA[[ValueSource(typeof($ValueSourceType$), "$ValueSourceName$")]$end$]]></Code>
-		</Snippet>
-	</CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>nua_ValueSource</Title>
+      <Shortcut>nua_ValueSource</Shortcut>
+      <Description>Code snippet for an NUnit ValueSource Attribute</Description>
+      <Author>Artur Kordowski</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>ValueSourceType</ID>
+          <ToolTip>Replace with the type of the source</ToolTip>
+          <Default>Type</Default>
+        </Literal>
+        <Literal>
+          <ID>ValueSourceName</ID>
+          <ToolTip>Replace with the name of the source</ToolTip>
+          <Default>Name</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[[ValueSource(typeof($ValueSourceType$), "$ValueSourceName$")]$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

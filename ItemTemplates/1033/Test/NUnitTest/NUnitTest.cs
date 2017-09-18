@@ -4,11 +4,11 @@ using System.Collections;
 
 namespace $rootnamespace$
 {
-	[TestFixture]
-	public class $safeitemrootname$
-	{
-		#region Tests
-		
-		#endregion
-	}
+    [TestFixture]
+    public class $safeitemrootname$
+    {
+        #region Tests
+        
+        #endregion
+    }
 }

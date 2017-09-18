@@ -1,46 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>evon</Title>
-			<Shortcut>evon</Shortcut>
-			<Description>Code snippet for an OnEvent method</Description>
-			<Author>Artur Kordowski</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>MethodAccessModifier</ID>
-					<ToolTip>Replace with the access modifier of the method</ToolTip>
-					<Default>protected</Default>
-				</Literal>
-				<Literal>
-					<ID>EventType</ID>
-					<ToolTip>Replace with the type of the event</ToolTip>
-					<Default>Event</Default>
-				</Literal>
-				<Literal>
-					<ID>EventArgsType</ID>
-					<ToolTip>Replace with the type of the event args</ToolTip>
-					<Default>EventArgs</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp">
-			<![CDATA[/// <summary>
-			/// Raises the <see cref="$EventType$"/> event.
-			/// </summary>
-			/// <param name="e">An <see cref="$EventArgsType$"/> that contains the event data.</param>
-			$MethodAccessModifier$ virtual void On$EventType$($EventArgsType$ e)
-			{
-				if ($EventType$ != null)
-				{
-					$EventType$(this, e);
-				}
-			}$end$]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>evon</Title>
+      <Shortcut>evon</Shortcut>
+      <Description>Code snippet for an OnEvent method</Description>
+      <Author>Artur Kordowski</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>MethodAccessModifier</ID>
+          <ToolTip>Replace with the access modifier of the method</ToolTip>
+          <Default>protected</Default>
+        </Literal>
+        <Literal>
+          <ID>EventType</ID>
+          <ToolTip>Replace with the type of the event</ToolTip>
+          <Default>Event</Default>
+        </Literal>
+        <Literal>
+          <ID>EventArgsType</ID>
+          <ToolTip>Replace with the type of the event args</ToolTip>
+          <Default>EventArgs</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[/// <summary>
+      /// Raises the <see cref="$EventType$"/> event.
+      /// </summary>
+      /// <param name="e">An <see cref="$EventArgsType$"/> that contains the event data.</param>
+      $MethodAccessModifier$ virtual void On$EventType$($EventArgsType$ e)
+      {
+        if ($EventType$ != null)
+        {
+          $EventType$(this, e);
+        }
+      }$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

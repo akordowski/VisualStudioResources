@@ -1,46 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>evon</Title>
-			<Shortcut>evon</Shortcut>
-			<Description>Codeausschnitt für eine OnEvent Methode</Description>
-			<Author>Artur Kordowski</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>MethodAccessModifier</ID>
-					<ToolTip>Durch den Zugriffsmodifizierer der Methode ersetzen</ToolTip>
-					<Default>protected</Default>
-				</Literal>
-				<Literal>
-					<ID>EventType</ID>
-					<ToolTip>Durch den Typ des Events ersetzen</ToolTip>
-					<Default>Event</Default>
-				</Literal>
-				<Literal>
-					<ID>EventArgsType</ID>
-					<ToolTip>Durch den Typ der EventArgs ersetzen</ToolTip>
-					<Default>EventArgs</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp">
-			<![CDATA[/// <summary>
-			/// Löst das <see cref="$EventType$"/>-Ereignis aus.
-			/// </summary>
-			/// <param name="e">Ein <see cref="$EventArgsType$"/>, das die Ereignisdaten enthält.</param>
-			$MethodAccessModifier$ virtual void On$EventType$($EventArgsType$ e)
-			{
-				if ($EventType$ != null)
-				{
-					$EventType$(this, e);
-				}
-			}$end$]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>evon</Title>
+      <Shortcut>evon</Shortcut>
+      <Description>Codeausschnitt für eine OnEvent Methode</Description>
+      <Author>Artur Kordowski</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>MethodAccessModifier</ID>
+          <ToolTip>Durch den Zugriffsmodifizierer der Methode ersetzen</ToolTip>
+          <Default>protected</Default>
+        </Literal>
+        <Literal>
+          <ID>EventType</ID>
+          <ToolTip>Durch den Typ des Events ersetzen</ToolTip>
+          <Default>Event</Default>
+        </Literal>
+        <Literal>
+          <ID>EventArgsType</ID>
+          <ToolTip>Durch den Typ der EventArgs ersetzen</ToolTip>
+          <Default>EventArgs</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[/// <summary>
+      /// Löst das <see cref="$EventType$"/>-Ereignis aus.
+      /// </summary>
+      /// <param name="e">Ein <see cref="$EventArgsType$"/>, das die Ereignisdaten enthält.</param>
+      $MethodAccessModifier$ virtual void On$EventType$($EventArgsType$ e)
+      {
+        if ($EventType$ != null)
+        {
+          $EventType$(this, e);
+        }
+      }$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>
