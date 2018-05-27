@@ -12,8 +12,8 @@ var lcid = Argument("lcid", "1033");
 
 var PROJECT = "VisualStudioResources";
 var PROJECT_DIR = Context.Environment.WorkingDirectory.FullPath + "/";
-var IMAGE_DIR = PROJECT_DIR + "image/";
-var PACKAGE_DIR = PROJECT_DIR + "package/";
+var IMAGE_DIR = PROJECT_DIR + "artifacts/image/";
+var PACKAGE_DIR = PROJECT_DIR + "artifacts/package/";
 
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -54,7 +54,7 @@ void BuildProject(string projectPath, string configuration, MSBuildPlatform buil
 void CopyItemTemplates(string lcid)
 {
     var dirs = GetDirectories(PROJECT_DIR + "ItemTemplates/" + lcid + "/*");
-	
+
 	foreach(var dir in dirs)
 	{
 	    var section = new DirectoryInfo(dir.FullPath).Name;
@@ -67,10 +67,10 @@ void CopyItemTemplates(string lcid)
 	    {
 	    	var project = new DirectoryInfo(projectDir.FullPath).Name;
 	    	var fileSource = projectDir + "/bin/Release/ItemTemplates/CSharp/1033/" + project + ".zip";
-	    	var fileTarget = sectionDir + "/" + project + ".zip";	    	
+	    	var fileTarget = sectionDir + "/" + project + ".zip";
 
 	    	CopyFile(fileSource, fileTarget);
-	    }	    
+	    }
 	}
 }
 
