@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>NUnit-Testprojekt (.NET Core)</Name>
+    <Description>Ein Projekt, das NUnit-Tests enthält, die auf .NET Core unter Windows, Linux und MacOS ausgeführt werden können.</Description>
+    <Icon Package="{52CBD135-1F97-2580-011F-C7CD052E44DE}" ID="531"/>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>15</SortOrder>
+    <TemplateID>CSharp.NETCore.NUnitTest</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <CreateInPlace>true</CreateInPlace>
+    <DefaultName>NUnitTestProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>    
+  </TemplateData>
+  <TemplateContent>
+    <Project File="NUnitTestProject.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">UnitTest1.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
